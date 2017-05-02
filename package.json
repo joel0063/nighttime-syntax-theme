@@ -1,8 +1,8 @@
 {
-  "name": "syntax-theme",
+  "name": "nighttime-syntax-theme",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.0.1",
+  "description": "a simple, clean, elegant dark mode theme for the Atom text editor.",
   "keywords": [
     "syntax",
     "theme"
