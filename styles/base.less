@@ -59,10 +59,10 @@ atom-text-editor {
 }
 
 .syntax--keyword {
-  color: @purple;
+  color: @cyan;
 
   &.syntax--control {
-    color: @purple;
+    color: @blue;
   }
 
   &.syntax--operator {
@@ -70,35 +70,35 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--special-method {
-    color: @blue;
+    color: @purple;
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: @light-orange;
   }
 }
 
 .syntax--storage {
-  color: @purple;
+  color: @red;
 }
 
 .syntax--constant {
   color: @orange;
 
   &.syntax--character.syntax--escape {
-    color: @cyan;
+    color: @light-orange;
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @purple;
   }
 
   &.syntax--other.syntax--color {
-    color: @cyan;
+    color: @blue;
   }
 
   &.syntax--other.syntax--symbol {
-    color: @green;
+    color: @orange;
   }
 }
 
@@ -120,11 +120,11 @@ atom-text-editor {
 }
 
 .syntax--string {
-  color: @green;
+  color: @cyan;
 
 
   &.syntax--regexp {
-    color: @cyan;
+    color: @green;
 
     .syntax--source.syntax--ruby.syntax--embedded {
       color: @orange;
@@ -132,7 +132,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--link {
-    color: @red;
+    color: @green;
   }
 }
 
@@ -187,7 +187,7 @@ atom-text-editor {
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @blue;
+    color: @green;
   }
   &.syntax--name.syntax--type {
     color: @light-orange;
@@ -195,14 +195,14 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @green;
+    color: @cyan;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
     color: @light-orange;
   }
 
   &.syntax--name.syntax--section {
-    color: @blue;
+    color: @purple;
   }
 
   &.syntax--name.syntax--tag {
